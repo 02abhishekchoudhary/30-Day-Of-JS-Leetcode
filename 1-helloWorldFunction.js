@@ -20,16 +20,14 @@ const f = createHelloWorld();
 f({}, null, 42); // "Hello World"
 
 Any arguments could be passed to the function but it should still always return "Hello World".
- 
 
 Constraints:
-
 0 <= args.length <= 10
 */
 
 var createHelloWorld = function () {
   return function (...args) {
-    return "Hello World";
+    return "Hello World!";
   };
 };
 
